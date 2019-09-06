@@ -1,0 +1,217 @@
+INFO 20190906 22:34:33 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190906 22:34:47 log:228 Not Found: /userinfo
+WARNING 20190906 22:34:47 basehttp:154 "GET /userinfo HTTP/1.1" 404 2290
+INFO 20190906 22:34:53 views:32 127.0.0.1 alredy exists!
+INFO 20190906 22:34:53 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:34:54 views:32 127.0.0.1 alredy exists!
+INFO 20190906 22:34:54 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:34:55 views:32 127.0.0.1 alredy exists!
+INFO 20190906 22:34:55 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:34:55 views:32 127.0.0.1 alredy exists!
+INFO 20190906 22:34:55 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:34:56 views:32 127.0.0.1 alredy exists!
+INFO 20190906 22:34:56 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:36:28 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:36:29 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:36:36 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:36:37 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:36:44 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:36:45 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:37:19 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:39:20 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:39:39 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:40:31 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:40:38 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:40:40 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:40:43 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:40:43 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:40:51 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:40:52 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:41:08 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:41:08 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:41:10 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:41:10 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:42:11 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:42:12 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:42:17 views:31 127.0.0.1 alredy exists!
+INFO 20190906 22:42:17 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:43:22 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:43:23 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:44:03 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:44:04 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:44:14 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:44:16 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:44:21 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:44:38 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:44:39 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:44:41 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:44:42 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:44:43 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:44:43 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:44:57 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:44:58 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:47:54 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:47:54 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:47:56 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:47:56 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:47:57 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:47:57 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:47:59 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:47:59 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:48:53 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:48:54 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:51:40 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:51:42 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:53:05 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:53:08 views:30 127.0.0.1 alredy exists!
+INFO 20190906 22:53:08 views:34 %s sql insertinsert userinfo(useragent,userip_id)values(%(user_ua),%(ip_add_id))
+INFO 20190906 22:53:08 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 22:54:53 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 22:54:54 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:54:58 views:30 127.0.0.1 alredy exists!
+ERROR 20190906 22:54:58 log:228 Internal Server Error: /sendinfos/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 34, in user_info
+    logger.info("%s sql insert"+"insert userinfo(useragent,userip_id)"+"values("%(user_ua)+","%(ip_add_id)+")")
+TypeError: not all arguments converted during string formatting
+ERROR 20190906 22:54:58 basehttp:154 "GET /sendinfos/ HTTP/1.1" 500 67921
+INFO 20190906 22:55:02 views:30 127.0.0.1 alredy exists!
+ERROR 20190906 22:55:02 log:228 Internal Server Error: /sendinfos/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 34, in user_info
+    logger.info("%s sql insert"+"insert userinfo(useragent,userip_id)"+"values("%(user_ua)+","%(ip_add_id)+")")
+TypeError: not all arguments converted during string formatting
+ERROR 20190906 22:55:02 basehttp:154 "GET /sendinfos/ HTTP/1.1" 500 67921
+INFO 20190906 22:57:28 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 22:57:29 views:29 127.0.0.1 alredy exists!
+ERROR 20190906 22:57:29 log:228 Internal Server Error: /sendinfos/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 33, in user_info
+    logger.info("%s sql insert: insert userinfo(useragent,userip_id)"+"values("%user_ua + "," %(ip_add_id)+")")
+TypeError: not all arguments converted during string formatting
+ERROR 20190906 22:57:29 basehttp:154 "GET /sendinfos/ HTTP/1.1" 500 67901
+INFO 20190906 22:58:43 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190906 23:00:00 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:00:16 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:00:51 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:00:52 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:00:57 views:29 127.0.0.1 alredy exists!
+ERROR 20190906 23:00:57 log:228 Internal Server Error: /sendinfos/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 33, in user_info
+    logger.info("%s sql insert: insert userinfo(useragent,userip_id)"+"values("%(user_ua))
+TypeError: not all arguments converted during string formatting
+ERROR 20190906 23:00:57 basehttp:154 "GET /sendinfos/ HTTP/1.1" 500 67819
+INFO 20190906 23:01:20 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:01:21 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:01:23 views:29 127.0.0.1 alredy exists!
+INFO 20190906 23:01:23 views:33 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190906 23:01:23 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+INFO 20190906 23:01:48 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:01:49 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:01:53 views:29 127.0.0.1 alredy exists!
+INFO 20190906 23:01:53 views:33 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190906 23:01:53 basehttp:154 "GET /sendinfos/ HTTP/1.1" 200 209
+WARNING 20190906 23:01:56 log:228 Not Found: /
+WARNING 20190906 23:01:56 basehttp:154 "GET / HTTP/1.1" 404 2248
+INFO 20190906 23:02:01 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:07:16 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190906 23:07:17 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:09:26 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190906 23:09:28 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:13:16 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190906 23:13:17 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:25:39 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:25:41 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:27:31 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:27:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:27:55 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:27:56 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:28:13 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:28:41 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:28:42 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:28:42 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:29:10 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:29:12 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:29:34 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:29:35 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:29:40 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+WARNING 20190906 23:29:46 log:228 Not Found: /
+WARNING 20190906 23:29:46 basehttp:154 "GET / HTTP/1.1" 404 2248
+INFO 20190906 23:29:52 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:30:12 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:30:17 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:31:05 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:31:07 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:31:29 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:31:31 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:31:35 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:31:51 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:31:52 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:31:56 views:64 False error
+INFO 20190906 23:31:56 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:32:22 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\util\tools.py changed, reloading.
+INFO 20190906 23:32:24 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:32:58 views:64 False error
+INFO 20190906 23:32:58 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:33:25 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\util\tools.py changed, reloading.
+INFO 20190906 23:33:26 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:34:39 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\util\tools.py changed, reloading.
+INFO 20190906 23:34:40 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:34:54 views:64 True error
+INFO 20190906 23:34:54 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:35:54 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:35:55 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:36:00 views:63 <Django_1.util.tools.sendmail object at 0x04984130> error
+INFO 20190906 23:36:00 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:36:49 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:36:50 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:37:32 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:37:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:37:37 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:37:47 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:37:48 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:37:52 views:63 <Django_1.util.tools.sendmail object at 0x040DDD70> error
+INFO 20190906 23:37:52 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:38:16 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:38:17 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:38:36 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:38:37 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:38:42 views:63 <Django_1.util.tools.sendmail object at 0x04044530> error
+INFO 20190906 23:38:42 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:39:21 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:39:23 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:39:27 views:63 <Django_1.util.tools.sendmail object at 0x04B75CB0> error
+INFO 20190906 23:39:27 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:39:57 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:39:58 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:40:03 views:64 <Django_1.util.tools.sendmail object at 0x049E96D0> error
+INFO 20190906 23:40:03 basehttp:154 "GET /getinfos/ HTTP/1.1" 200 2102
+INFO 20190906 23:40:35 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:40:36 autoreload:597 Watching for file changes with StatReloader
+INFO 20190906 23:40:52 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190906 23:40:53 autoreload:597 Watching for file changes with StatReloader

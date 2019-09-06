@@ -86,8 +86,35 @@ DATABASES = {
 
     }
 }
-
-
+LOGGING = {
+    'version':1,
+    'disable_existing_loggers':False,
+    'formatters':{
+        'verbose':{
+          'format':'%(levelname)s %(asctime)s %(module)s:%(lineno)d %(message)s',
+          'datefmt':'%Y%m%d %H:%M:%S',
+        },
+    },
+    'handlers':{
+        'file':{
+          'level':'INFO',
+          'class':'logging.FileHandler',  #以文件方式输出
+          'formatter':'verbose',          #接formatter模块，定义日志格式。
+          'filename':'./tmp/error.log',
+        },
+    },
+    'loggers':{
+        'django':{
+          'handlers':["file"],
+          'level':'INFO',   #级别
+          'propagate':True,
+        },
+    },
+}
+EMAIL_HOST = "smtp.qq.com"
+EMAIL_HOST_USER = "542275297@qq.com"
+EMAIL_HOST_PASSWORD = "dqbhdollmkuobcga"
+EMAIL_USE_TLS = False
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
