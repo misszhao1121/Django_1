@@ -11,10 +11,15 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import sys
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
+sys.path.insert(0, os.path.join(BASE_DIR, 'web'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -25,7 +30,6 @@ SECRET_KEY = '6uf6-1o1iv5*a3s=5cru1*8409g&-8*)c#7_#atu4yv0zms!5-'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -70,7 +74,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Django_1.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -79,35 +82,35 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         # 'NAME': os.path.join(BASE_DIR, 'myapp1'),
         'NAME': 'myapp1',
-        'USER':'root',
-        'PASSWORD':'zhaocheng11',
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
+        'USER': 'root',
+        'PASSWORD': 'zhaocheng11',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
 
     }
 }
 LOGGING = {
-    'version':1,
-    'disable_existing_loggers':False,
-    'formatters':{
-        'verbose':{
-          'format':'%(levelname)s %(asctime)s %(module)s:%(lineno)d %(message)s',
-          'datefmt':'%Y%m%d %H:%M:%S',
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s:%(lineno)d %(message)s',
+            'datefmt': '%Y%m%d %H:%M:%S',
         },
     },
-    'handlers':{
-        'file':{
-          'level':'INFO',
-          'class':'logging.FileHandler',  #以文件方式输出
-          'formatter':'verbose',          #接formatter模块，定义日志格式。
-          'filename':'./tmp/error.log',
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',  # 以文件方式输出
+            'formatter': 'verbose',  # 接formatter模块，定义日志格式。
+            'filename': './tmp/error.log',
         },
     },
-    'loggers':{
-        'django':{
-          'handlers':["file"],
-          'level':'INFO',   #级别
-          'propagate':True,
+    'loggers': {
+        'django': {
+            'handlers': ["file"],
+            'level': 'INFO',  # 级别
+            'propagate': True,
         },
     },
 }
@@ -133,13 +136,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -147,8 +149,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+

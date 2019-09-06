@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "indexl.html" %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'index' %}">Home</a>
+    <li>服务器端口</li> <a>{{ SERVER_PORT }}</a>
+    <li>服务器IP</li> <a>{{ IP }}</a>
+    <li>浏览器UA</li> <a>{{ UA }}</a>
+    <li>访问状态</li> <a>{{ STATUS }}</a>
+    <li>访问信息</li> <a>{{ INFO }}</a>
+    <li>当访问时间</li> {{ date }}
+
+{% endblock %}
+</body>
+</html>

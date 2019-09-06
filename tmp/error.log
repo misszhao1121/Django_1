@@ -215,3 +215,1077 @@ INFO 20190906 23:40:35 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app
 INFO 20190906 23:40:36 autoreload:597 Watching for file changes with StatReloader
 INFO 20190906 23:40:52 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
 INFO 20190906 23:40:53 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 12:56:18 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 12:56:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 12:57:32 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 12:59:01 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:01:14 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 13:01:15 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:05:29 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 13:05:30 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:07:00 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:07:09 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:09:45 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 13:09:47 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 13:10:10 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 13:10:29 log:228 Not Found: /web
+WARNING 20190907 13:10:29 basehttp:154 "GET /web HTTP/1.1" 404 2375
+WARNING 20190907 13:11:11 log:228 Not Found: /web/index.html
+WARNING 20190907 13:11:11 basehttp:154 "GET /web/index.html HTTP/1.1" 404 2408
+INFO 20190907 13:49:36 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 13:49:59 log:228 Not Found: /
+WARNING 20190907 13:49:59 basehttp:154 "GET / HTTP/1.1" 404 2477
+INFO 20190907 13:50:16 basehttp:154 "GET /admin HTTP/1.1" 301 0
+INFO 20190907 13:50:16 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 13:50:20 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 13:50:20 basehttp:154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 20190907 13:50:20 basehttp:154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 20190907 13:50:20 basehttp:154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 20190907 13:50:20 basehttp:154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 20190907 13:50:21 basehttp:154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 20190907 13:50:21 basehttp:154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 20190907 13:50:38 basehttp:154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 20190907 13:50:39 basehttp:154 "GET /admin/ HTTP/1.1" 200 5001
+INFO 20190907 13:50:39 basehttp:154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 20190907 13:50:39 basehttp:154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 20190907 13:50:39 basehttp:154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 20190907 13:50:39 basehttp:154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 20190907 13:50:49 log:228 Not Found: /
+WARNING 20190907 13:50:49 basehttp:154 "GET / HTTP/1.1" 404 2477
+INFO 20190907 13:50:51 basehttp:154 "GET /admin/ HTTP/1.1" 200 5001
+INFO 20190907 13:50:52 basehttp:154 "GET /admin/app1/author/add/ HTTP/1.1" 200 5625
+INFO 20190907 13:50:52 basehttp:154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 20190907 13:50:52 basehttp:154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 20190907 13:50:52 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:50:52 basehttp:154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 20190907 13:50:53 basehttp:154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 20190907 13:50:55 basehttp:154 "GET /admin/ HTTP/1.1" 200 5001
+INFO 20190907 13:50:56 basehttp:154 "GET /admin/app1/bookinstance/add/ HTTP/1.1" 200 7425
+INFO 20190907 13:50:56 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:50:56 basehttp:154 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 20190907 13:50:59 basehttp:154 "GET /admin/ HTTP/1.1" 200 5001
+INFO 20190907 13:51:06 basehttp:154 "GET /admin/app1/author/add/ HTTP/1.1" 200 5625
+INFO 20190907 13:51:06 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:51:18 basehttp:154 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 20190907 13:51:31 basehttp:154 "POST /admin/app1/author/add/ HTTP/1.1" 302 0
+INFO 20190907 13:51:32 basehttp:154 "GET /admin/app1/author/ HTTP/1.1" 200 4505
+INFO 20190907 13:51:32 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:51:32 basehttp:154 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 20190907 13:51:32 basehttp:154 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 20190907 13:51:32 basehttp:154 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 20190907 13:51:35 basehttp:154 "GET /admin/app1/author/1/change/ HTTP/1.1" 200 5948
+INFO 20190907 13:51:35 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:51:35 basehttp:154 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 20190907 13:51:37 basehttp:154 "GET /admin/app1/author/1/history/ HTTP/1.1" 200 2263
+INFO 20190907 13:51:38 basehttp:154 "GET /admin/ HTTP/1.1" 200 5318
+INFO 20190907 13:52:00 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 3150
+INFO 20190907 13:52:00 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:52:02 basehttp:154 "GET /admin/app1/ HTTP/1.1" 200 3714
+INFO 20190907 13:52:02 basehttp:154 "GET /admin/ HTTP/1.1" 200 5318
+INFO 20190907 13:52:10 basehttp:154 "GET /admin/app1/book/add/ HTTP/1.1" 200 7528
+INFO 20190907 13:52:10 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:52:29 basehttp:154 "GET /admin/app1/author/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 4675
+INFO 20190907 13:52:29 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:52:45 basehttp:154 "GET /admin/app1/genre/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3148
+INFO 20190907 13:52:45 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:52:49 basehttp:154 "POST /admin/app1/genre/add/?_to_field=id&_popup=1 HTTP/1.1" 200 373
+INFO 20190907 13:52:49 basehttp:154 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+INFO 20190907 13:53:03 basehttp:154 "POST /admin/app1/book/add/ HTTP/1.1" 302 0
+INFO 20190907 13:53:03 basehttp:154 "GET /admin/app1/book/1/change/ HTTP/1.1" 200 8120
+INFO 20190907 13:53:03 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:53:13 basehttp:154 "POST /admin/app1/book/1/change/ HTTP/1.1" 302 0
+INFO 20190907 13:53:13 basehttp:154 "GET /admin/app1/book/add/ HTTP/1.1" 200 7782
+INFO 20190907 13:53:13 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:53:15 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 13:53:15 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:53:16 basehttp:154 "GET /admin/ HTTP/1.1" 200 6172
+INFO 20190907 13:53:27 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 13:53:28 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:53:28 basehttp:154 "GET /admin/app1/book/1/change/ HTTP/1.1" 200 7911
+INFO 20190907 13:53:28 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 13:53:30 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 13:53:30 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+WARNING 20190907 13:55:41 log:228 Not Found: /
+WARNING 20190907 13:55:41 basehttp:154 "GET / HTTP/1.1" 404 2477
+INFO 20190907 13:55:43 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 13:55:44 basehttp:154 "GET /admin/password_change/ HTTP/1.1" 200 2776
+INFO 20190907 13:55:45 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 13:55:48 basehttp:154 "GET /admin/logout/ HTTP/1.1" 200 1211
+INFO 20190907 13:55:49 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 13:55:49 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 21:53:11 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\admin.py changed, reloading.
+INFO 20190907 21:53:24 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 21:56:41 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 21:57:18 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:00:16 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 22:00:17 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 22:00:48 log:228 Not Found: /BrowseInfo
+WARNING 20190907 22:00:48 basehttp:154 "GET /BrowseInfo HTTP/1.1" 404 2420
+INFO 20190907 22:00:55 basehttp:154 "GET /getinfo HTTP/1.1" 301 0
+INFO 20190907 22:00:55 basehttp:154 "GET /getinfo/ HTTP/1.1" 200 2102
+INFO 20190907 22:01:00 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:01:03 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:01:05 basehttp:154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 20190907 22:01:05 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:01:12 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 13982
+INFO 20190907 22:01:12 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+ERROR 20190907 22:01:22 log:228 Internal Server Error: /admin/app1/browseinfo/41/change/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaultfilters.py", line 42, in _dec
+    args[0] = str(args[0])
+TypeError: __str__ returned non-string (type UserIPInfo)
+ERROR 20190907 22:01:22 basehttp:154 "GET /admin/app1/browseinfo/41/change/ HTTP/1.1" 500 191646
+INFO 20190907 22:01:34 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 13982
+INFO 20190907 22:01:38 basehttp:154 "POST /admin/app1/browseinfo/ HTTP/1.1" 302 0
+INFO 20190907 22:01:38 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 14161
+INFO 20190907 22:01:38 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:01:39 basehttp:154 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 20190907 22:01:42 basehttp:154 "GET /admin/app1/browseinfo/add/ HTTP/1.1" 200 5177
+INFO 20190907 22:01:42 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+ERROR 20190907 22:01:55 log:228 Internal Server Error: /admin/app1/browseinfo/add/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\options.py", line 1634, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\options.py", line 1565, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\contrib\admin\options.py", line 810, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type UserIPInfo)
+ERROR 20190907 22:01:55 basehttp:154 "POST /admin/app1/browseinfo/add/ HTTP/1.1" 500 112568
+INFO 20190907 22:02:01 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:03 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 13982
+INFO 20190907 22:02:03 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:06 basehttp:154 "POST /admin/app1/browseinfo/ HTTP/1.1" 302 0
+INFO 20190907 22:02:07 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 14161
+INFO 20190907 22:02:07 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:10 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 13982
+INFO 20190907 22:02:10 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:12 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 4316
+INFO 20190907 22:02:12 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:13 basehttp:154 "GET /admin/app1/genre/1/change/ HTTP/1.1" 200 4318
+INFO 20190907 22:02:13 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:16 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 4316
+INFO 20190907 22:02:18 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:19 basehttp:154 "GET /admin/app1/bookinstance/ HTTP/1.1" 200 3211
+INFO 20190907 22:02:19 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:21 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:22 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 22:02:22 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:24 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:25 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 13982
+INFO 20190907 22:02:25 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:28 basehttp:154 "GET /admin/ HTTP/1.1" 200 6631
+INFO 20190907 22:02:28 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 4316
+INFO 20190907 22:02:28 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:31 basehttp:154 "POST /admin/app1/genre/ HTTP/1.1" 302 0
+INFO 20190907 22:02:31 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 4495
+INFO 20190907 22:02:32 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:33 basehttp:154 "GET /admin/app1/genre/1/change/ HTTP/1.1" 200 4318
+INFO 20190907 22:02:33 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:34 basehttp:154 "GET /admin/app1/genre/1/delete/ HTTP/1.1" 200 3300
+INFO 20190907 22:02:34 basehttp:154 "GET /static/admin/js/cancel.js HTTP/1.1" 200 409
+INFO 20190907 22:02:38 basehttp:154 "POST /admin/app1/genre/1/delete/ HTTP/1.1" 302 0
+INFO 20190907 22:02:39 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 3306
+INFO 20190907 22:02:39 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:41 basehttp:154 "GET /admin/ HTTP/1.1" 200 6875
+INFO 20190907 22:02:45 basehttp:154 "GET /admin/app1/book/1/change/ HTTP/1.1" 200 7862
+INFO 20190907 22:02:45 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:48 basehttp:154 "GET /admin/ HTTP/1.1" 200 6875
+INFO 20190907 22:02:49 basehttp:154 "GET /admin/auth/group/ HTTP/1.1" 200 3505
+INFO 20190907 22:02:49 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:02:49 basehttp:154 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 20190907 22:02:51 basehttp:154 "GET /admin/ HTTP/1.1" 200 6875
+INFO 20190907 22:03:34 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:03:35 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:06:05 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:06:06 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:09:44 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\migrations\0001_initial.py changed, reloading.
+INFO 20190907 22:09:45 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:11:03 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:11:04 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:12:06 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:12:08 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:12:31 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:12:32 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:13:00 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:13:01 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:14:12 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\migrations\0001_initial.py changed, reloading.
+INFO 20190907 22:14:13 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:16:00 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:16:01 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:17:04 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:17:05 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 22:17:15 log:228 Not Found: /
+WARNING 20190907 22:17:15 basehttp:154 "GET / HTTP/1.1" 404 2372
+ERROR 20190907 22:17:23 log:228 Internal Server Error: /getinfo/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 71, in user_history
+    return  HttpResponse(json.dumps(result),content_type="application/json")
+UnboundLocalError: local variable 'result' referenced before assignment
+ERROR 20190907 22:17:23 basehttp:154 "GET /getinfo/ HTTP/1.1" 500 67022
+WARNING 20190907 22:17:39 log:228 Not Found: /sendinfos/
+WARNING 20190907 22:17:39 basehttp:154 "GET /sendinfos/ HTTP/1.1" 404 2420
+INFO 20190907 22:17:44 views:34 127.0.0.1 alredy exists!
+ERROR 20190907 22:17:44 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 35, in user_info
+    ip_add_id = user_obj[0].id
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 291, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR 20190907 22:17:44 basehttp:154 "GET /sending/ HTTP/1.1" 500 71580
+WARNING 20190907 22:18:12 log:228 Not Found: /
+WARNING 20190907 22:18:12 basehttp:154 "GET / HTTP/1.1" 404 2372
+INFO 20190907 22:19:48 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:19:49 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 22:20:11 log:228 Not Found: /getinfos/
+WARNING 20190907 22:20:11 basehttp:154 "GET /getinfos/ HTTP/1.1" 404 2417
+ERROR 20190907 22:20:18 log:228 Internal Server Error: /getinfo/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 75, in user_history
+    return HttpResponse(json.dumps(result), content_type="application/json")
+UnboundLocalError: local variable 'result' referenced before assignment
+ERROR 20190907 22:20:18 basehttp:154 "GET /getinfo/ HTTP/1.1" 500 66703
+INFO 20190907 22:21:41 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:21:42 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190907 22:21:49 log:228 Not Found: /
+WARNING 20190907 22:21:49 basehttp:154 "GET / HTTP/1.1" 404 2372
+ERROR 20190907 22:21:54 log:228 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 20, in hellword
+    a = request1.methon
+AttributeError: 'WSGIRequest' object has no attribute 'methon'
+ERROR 20190907 22:21:54 basehttp:154 "GET /hello/ HTTP/1.1" 500 66743
+INFO 20190907 22:22:28 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:22:30 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:22:37 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\admin.py changed, reloading.
+INFO 20190907 22:22:39 autoreload:597 Watching for file changes with StatReloader
+ERROR 20190907 22:22:44 log:228 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 20, in hellword
+    a = request.methon
+AttributeError: 'WSGIRequest' object has no attribute 'methon'
+ERROR 20190907 22:22:44 basehttp:154 "GET /hello/ HTTP/1.1" 500 67003
+ERROR 20190907 22:22:45 log:228 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 20, in hellword
+    a = request.methon
+AttributeError: 'WSGIRequest' object has no attribute 'methon'
+ERROR 20190907 22:22:45 basehttp:154 "GET /hello/ HTTP/1.1" 500 67003
+ERROR 20190907 22:22:45 log:228 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 20, in hellword
+    a = request.methon
+AttributeError: 'WSGIRequest' object has no attribute 'methon'
+ERROR 20190907 22:22:45 basehttp:154 "GET /hello/ HTTP/1.1" 500 67003
+WARNING 20190907 22:22:49 log:228 Not Found: /sendinfos/
+WARNING 20190907 22:22:49 basehttp:154 "GET /sendinfos/ HTTP/1.1" 404 2420
+INFO 20190907 22:22:54 basehttp:154 "GET /sending HTTP/1.1" 301 0
+INFO 20190907 22:22:54 views:37 127.0.0.1 alredy exists!
+ERROR 20190907 22:22:54 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 38, in user_info
+    ip_add_id = user_obj[0].id
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 291, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR 20190907 22:22:54 basehttp:154 "GET /sending/ HTTP/1.1" 500 71459
+INFO 20190907 22:24:55 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 22:24:56 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:25:24 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:25:25 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:25:35 views:37 127.0.0.1 alredy exists!
+ERROR 20190907 22:25:35 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 38, in user_info
+    ip_add_id = user_obj[0].id
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 291, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR 20190907 22:25:35 basehttp:154 "GET /sending/ HTTP/1.1" 500 71459
+INFO 20190907 22:28:28 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:28:29 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:28:35 views:38 127.0.0.1 alredy exists!
+ERROR 20190907 22:28:35 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 39, in user_info
+    ip_add_id = user_obj[0].id
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 291, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR 20190907 22:28:35 basehttp:154 "GET /sending/ HTTP/1.1" 500 71743
+INFO 20190907 22:30:19 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:30:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:30:50 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:30:53 views:37 127.0.0.1 alredy exists!
+INFO 20190907 22:30:53 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 22:30:53 basehttp:154 "GET /sending/ HTTP/1.1" 200 209
+WARNING 20190907 22:31:18 log:228 Not Found: /
+WARNING 20190907 22:31:18 basehttp:154 "GET / HTTP/1.1" 404 2372
+ERROR 20190907 22:31:23 log:228 Internal Server Error: /getinfo/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 62, in user_history
+    infos[item.ip] = [b_obj.useragent for b_obj in BrowseInfo.objects.filter(userip_id=item.id)]
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1190, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1049, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1420, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'userip_id' into field. Choices are: id, ip, ip_id, uip, useragent
+ERROR 20190907 22:31:23 basehttp:154 "GET /getinfo/ HTTP/1.1" 500 105287
+INFO 20190907 22:32:14 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:32:16 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:32:17 basehttp:154 "GET /getinfo/ HTTP/1.1" 200 165
+INFO 20190907 22:32:58 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:33:00 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:33:05 views:37 127.0.0.1 alredy exists!
+INFO 20190907 22:33:06 views:43 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 22:33:06 basehttp:154 "GET /sending/ HTTP/1.1" 200 209
+INFO 20190907 22:34:07 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:07 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:08 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:08 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:11 basehttp:154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1983
+INFO 20190907 22:34:21 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:21 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:21 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:21 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/ HTTP/1.1" 302 0
+INFO 20190907 22:34:29 basehttp:154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+INFO 20190907 22:34:44 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:34:46 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:35:35 basehttp:154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 20190907 22:35:36 basehttp:154 "GET /admin/ HTTP/1.1" 200 5460
+INFO 20190907 22:35:40 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4686
+INFO 20190907 22:35:40 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:35:45 basehttp:154 "POST /admin/app1/browseinfo/ HTTP/1.1" 302 0
+INFO 20190907 22:35:45 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4865
+INFO 20190907 22:35:45 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:35:48 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4686
+INFO 20190907 22:35:50 basehttp:154 "GET /admin/ HTTP/1.1" 200 5460
+INFO 20190907 22:35:51 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 3157
+INFO 20190907 22:35:51 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:35:54 basehttp:154 "GET /admin/ HTTP/1.1" 200 5460
+INFO 20190907 22:35:55 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 3150
+INFO 20190907 22:35:55 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:35:56 basehttp:154 "GET /admin/ HTTP/1.1" 200 5460
+INFO 20190907 22:35:57 basehttp:154 "GET /admin/app1/bookinstance/ HTTP/1.1" 200 3211
+INFO 20190907 22:35:57 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:35:58 basehttp:154 "GET /admin/ HTTP/1.1" 200 5460
+INFO 20190907 22:35:59 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 3150
+INFO 20190907 22:35:59 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:00 basehttp:154 "GET /admin/app1/book/add/ HTTP/1.1" 200 7489
+INFO 20190907 22:36:00 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:06 basehttp:154 "GET /admin/app1/author/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4680
+INFO 20190907 22:36:06 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:10 basehttp:154 "POST /admin/app1/author/add/?_to_field=id&_popup=1 HTTP/1.1" 200 359
+INFO 20190907 22:36:16 basehttp:154 "GET /admin/app1/genre/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3148
+INFO 20190907 22:36:16 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:18 basehttp:154 "POST /admin/app1/genre/add/?_to_field=id&_popup=1 HTTP/1.1" 200 357
+INFO 20190907 22:36:20 basehttp:154 "POST /admin/app1/book/add/ HTTP/1.1" 302 0
+INFO 20190907 22:36:20 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4489
+INFO 20190907 22:36:20 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:30 basehttp:154 "POST /admin/app1/book/ HTTP/1.1" 302 0
+INFO 20190907 22:36:30 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4488
+INFO 20190907 22:36:31 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:32 basehttp:154 "GET /admin/app1/book/1/change/ HTTP/1.1" 200 7894
+INFO 20190907 22:36:32 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:35 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4309
+INFO 20190907 22:36:35 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:37 basehttp:154 "POST /admin/app1/book/ HTTP/1.1" 302 0
+INFO 20190907 22:36:37 basehttp:154 "GET /admin/app1/book/ HTTP/1.1" 200 4420
+INFO 20190907 22:36:37 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:41 basehttp:154 "GET /admin/ HTTP/1.1" 200 6333
+INFO 20190907 22:36:42 basehttp:154 "GET /admin/app1/genre/ HTTP/1.1" 200 4309
+INFO 20190907 22:36:42 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:43 basehttp:154 "GET /admin/app1/genre/1/change/ HTTP/1.1" 200 4304
+INFO 20190907 22:36:43 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:45 basehttp:154 "GET /admin/ HTTP/1.1" 200 6333
+INFO 20190907 22:36:46 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4686
+INFO 20190907 22:36:46 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:36:47 basehttp:154 "GET /admin/app1/browseinfo/2/change/ HTTP/1.1" 200 5563
+INFO 20190907 22:36:47 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:37:42 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:37:43 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:37:54 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:38:00 basehttp:154 "GET /admin/app1/browseinfo/2/change/ HTTP/1.1" 200 5575
+INFO 20190907 22:38:00 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:38:01 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4710
+INFO 20190907 22:38:01 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:38:32 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:38:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:38:37 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4898
+INFO 20190907 22:38:37 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:38:38 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4898
+INFO 20190907 22:38:38 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:38:41 basehttp:154 "GET /admin/app1/browseinfo/2/change/ HTTP/1.1" 200 5669
+INFO 20190907 22:38:41 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:38:46 basehttp:154 "GET /admin/app1/browseinfo/2/delete/ HTTP/1.1" 200 3593
+INFO 20190907 22:38:50 basehttp:154 "POST /admin/app1/browseinfo/2/delete/ HTTP/1.1" 302 0
+INFO 20190907 22:38:50 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4842
+INFO 20190907 22:38:50 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:17 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:42:19 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:42:22 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4462
+INFO 20190907 22:42:22 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:24 basehttp:154 "GET /admin/app1/browseinfo/1/change/ HTTP/1.1" 200 5492
+INFO 20190907 22:42:24 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:26 basehttp:154 "GET /admin/app1/ HTTP/1.1" 200 4173
+INFO 20190907 22:42:27 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4462
+INFO 20190907 22:42:27 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:28 basehttp:154 "GET /admin/app1/browseinfo/1/change/ HTTP/1.1" 200 5492
+INFO 20190907 22:42:28 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:34 basehttp:154 "POST /admin/app1/browseinfo/1/change/ HTTP/1.1" 302 0
+INFO 20190907 22:42:34 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4667
+INFO 20190907 22:42:34 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:35 basehttp:154 "GET /admin/app1/browseinfo/1/change/ HTTP/1.1" 200 5492
+INFO 20190907 22:42:36 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:42 basehttp:154 "POST /admin/app1/browseinfo/1/change/ HTTP/1.1" 302 0
+INFO 20190907 22:42:42 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4667
+INFO 20190907 22:42:42 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:54 basehttp:154 "GET /admin/app1/browseinfo/add/ HTTP/1.1" 200 5154
+INFO 20190907 22:42:54 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:42:57 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4462
+INFO 20190907 22:42:57 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:43:18 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:43:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:51:01 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:51:02 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:51:39 basehttp:154 "POST /admin/app1/browseinfo/ HTTP/1.1" 302 0
+INFO 20190907 22:51:40 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4641
+INFO 20190907 22:51:40 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:52:36 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\models.py changed, reloading.
+INFO 20190907 22:52:37 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:53:25 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:53:26 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:54:59 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:55:00 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:56:11 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:56:13 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:56:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:56:58 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:57:00 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:57:34 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 22:57:35 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:57:40 basehttp:154 "GET /admin/app1/browseinfo/ HTTP/1.1" 200 4462
+INFO 20190907 22:57:40 basehttp:154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 20190907 22:58:08 views:37 127.0.0.1 alredy exists!
+INFO 20190907 22:58:08 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 22:58:08 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request,'app1/web/index.html',result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app1/web/index.html
+ERROR 20190907 22:58:08 basehttp:154 "GET /sending/ HTTP/1.1" 500 83745
+INFO 20190907 22:59:07 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 22:59:12 views:37 127.0.0.1 alredy exists!
+INFO 20190907 22:59:12 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 22:59:13 log:228 Internal Server Error: /sending/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request,'Django_1/app1/web/index.html',result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Django_1/app1/web/index.html
+ERROR 20190907 22:59:13 basehttp:154 "GET /sending/ HTTP/1.1" 500 84024
+INFO 20190907 23:08:44 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 23:08:46 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:09:29 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190907 23:09:30 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:12:21 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:12:40 basehttp:154 "GET /index HTTP/1.1" 301 0
+INFO 20190907 23:12:40 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:12:40 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:12:40 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request, 'index.html', context=result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 20190907 23:12:40 basehttp:154 "GET /index/ HTTP/1.1" 500 83555
+INFO 20190907 23:13:39 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:13:41 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:13:41 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:13:41 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:13:43 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:13:43 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:13:43 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:13:45 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:13:45 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:13:45 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:13:46 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:13:46 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:13:46 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:14:29 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:14:31 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:14:39 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:14:39 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:14:39 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:14:40 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:14:40 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:14:40 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:26 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:26 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:26 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:27 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:27 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:27 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:15:35 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:36 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:36 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:37 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:37 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:37 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:38 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:38 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:38 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:38 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:38 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:38 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:39 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:39 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:39 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:40 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:40 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:40 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:15:40 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:40 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:41 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+WARNING 20190907 23:15:46 log:228 Not Found: /index/index.html
+WARNING 20190907 23:15:46 basehttp:154 "GET /index/index.html HTTP/1.1" 404 2342
+INFO 20190907 23:15:54 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:15:54 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:15:54 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:17:53 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:17:57 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:17:57 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:17:57 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:18:19 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:18:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:18:22 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:18:23 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:18:23 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:18:26 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:18:26 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:18:26 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:18:27 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:18:27 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:18:27 basehttp:154 "GET /index/ HTTP/1.1" 200 150
+INFO 20190907 23:18:38 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:18:40 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:24:43 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:24:47 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:24:47 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:24:47 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: index.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 53, in user_info
+    'SERVER_PORT': server_port})
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 20190907 23:24:47 basehttp:154 "GET /index/ HTTP/1.1" 500 128459
+INFO 20190907 23:26:33 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:26:35 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:26:38 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:26:38 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:26:38 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: index.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request, 'index.html', context=result,content_type="application/html")
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 20190907 23:26:38 basehttp:154 "GET /index/ HTTP/1.1" 500 128431
+INFO 20190907 23:26:56 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:26:58 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:29:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:29:22 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:29:22 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:29:22 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: indexl.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request, 'index.html', context=result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: indexl.html
+ERROR 20190907 23:29:22 basehttp:154 "GET /index/ HTTP/1.1" 500 128374
+INFO 20190907 23:30:09 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:30:14 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:30:15 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:30:15 basehttp:154 "GET /index/ HTTP/1.1" 200 16
+WARNING 20190907 23:30:27 log:228 Not Found: /index.html
+WARNING 20190907 23:30:27 basehttp:154 "GET /index.html HTTP/1.1" 404 2324
+INFO 20190907 23:30:32 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:30:32 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:30:32 basehttp:154 "GET /index/ HTTP/1.1" 200 16
+INFO 20190907 23:30:51 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:30:52 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:30:52 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:30:52 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+INFO 20190907 23:34:19 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:34:19 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:34:19 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+INFO 20190907 23:34:20 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:34:21 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:34:21 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+INFO 20190907 23:34:25 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:34:26 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:34:26 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:34:26 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+INFO 20190907 23:34:32 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:34:32 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:34:32 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+INFO 20190907 23:34:34 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:34:34 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:34:34 basehttp:154 "GET /index/ HTTP/1.1" 200 156
+WARNING 20190907 23:34:56 log:228 Not Found: /index1.html
+WARNING 20190907 23:34:56 basehttp:154 "GET /index1.html HTTP/1.1" 404 2327
+WARNING 20190907 23:35:01 log:228 Not Found: /index1
+WARNING 20190907 23:35:01 basehttp:154 "GET /index1 HTTP/1.1" 404 2312
+INFO 20190907 23:35:04 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:35:04 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:35:04 basehttp:154 "GET /index/ HTTP/1.1" 200 155
+INFO 20190907 23:35:23 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:35:24 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:35:25 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:35:25 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 49, in user_info
+    return render(request, 'index.html', context=result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\urls\resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index1' not found. 'index1' is not a valid view function or pattern name.
+ERROR 20190907 23:35:25 basehttp:154 "GET /index/ HTTP/1.1" 500 154482
+INFO 20190907 23:36:53 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:36:56 views:37 127.0.0.1 alredy exists!
+INFO 20190907 23:36:56 views:42 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:36:56 basehttp:154 "GET /index/ HTTP/1.1" 200 450
+INFO 20190907 23:37:58 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:37:59 autoreload:597 Watching for file changes with StatReloader
+ERROR 20190907 23:38:23 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 30, in user_info
+    date = request.META['']
+KeyError: ''
+ERROR 20190907 23:38:23 basehttp:154 "GET /index/ HTTP/1.1" 500 67900
+INFO 20190907 23:39:52 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:39:53 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:40:01 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:40:27 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:40:33 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:40:33 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:40:33 basehttp:154 "GET /index/ HTTP/1.1" 200 450
+INFO 20190907 23:40:41 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:40:41 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:40:41 basehttp:154 "GET /index/ HTTP/1.1" 200 450
+INFO 20190907 23:40:42 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:40:42 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:40:42 basehttp:154 "GET /index/ HTTP/1.1" 200 450
+INFO 20190907 23:40:47 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:41:08 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:41:09 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:41:12 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:41:12 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:41:12 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 53, in user_info
+    return render(request, 'index1.html', context=result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index1.html
+ERROR 20190907 23:41:12 basehttp:154 "GET /index/ HTTP/1.1" 500 83966
+WARNING 20190907 23:41:15 log:228 Not Found: /index1
+WARNING 20190907 23:41:15 basehttp:154 "GET /index1 HTTP/1.1" 404 2312
+WARNING 20190907 23:41:23 log:228 Not Found: /index1.html
+WARNING 20190907 23:41:23 basehttp:154 "GET /index1.html HTTP/1.1" 404 2327
+INFO 20190907 23:41:26 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:41:27 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+ERROR 20190907 23:41:27 log:228 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 53, in user_info
+    return render(request, 'index1.html', context=result)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index1.html
+ERROR 20190907 23:41:27 basehttp:154 "GET /index/ HTTP/1.1" 500 83831
+INFO 20190907 23:41:31 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190907 23:41:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190907 23:41:35 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:41:35 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:41:35 basehttp:154 "GET /index/ HTTP/1.1" 200 494
+INFO 20190907 23:41:36 views:40 127.0.0.1 alredy exists!
+INFO 20190907 23:41:36 views:45 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190907 23:41:36 basehttp:154 "GET /index/ HTTP/1.1" 200 494

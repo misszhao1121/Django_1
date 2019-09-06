@@ -1,0 +1,17 @@
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'index' %}">Home</a>
+<ul>
+    <li>服务其端口</li> {{ SERVER_PORT }}
+    <li>服务其IP</li> {{ IP }}
+    <li>浏览器UA</li> {{ UA }}
+    <li>访问状态</li> {{ STATUS }}
+    <li>访问信息</li> {{ INFO }}
+    <li>当访问时间</li> {{ date }}
+</ul>
+{% endblock %}
