@@ -2,7 +2,6 @@
 from django.db import models
 
 # Create your models here.
-from django.urls import reverse
 from django.urls import reverse  # Used to generate URLs by reversing the URL patterns
 import uuid  # Required for unique book instances
 
@@ -37,7 +36,6 @@ class BrowseInfo(models.Model):
 
     def __str__(self):
         return self.uip
-
 
 
 # 图书系统模型

@@ -1,17 +1,24 @@
-{% block content %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<a href="{% url 'index' %}">Home</a>
+{% block content %}
+    {% csrf_token %}
+{#<a href="{% url 'indexl' %}">Home</a>#}
 <ul>
     <li>服务其端口</li> {{ SERVER_PORT }}
     <li>服务其IP</li> {{ IP }}
-    <li>浏览器UA</li> {{ UA }}
+    <li>浏览器UA</li> {{ user_ua }}
     <li>访问状态</li> {{ STATUS }}
     <li>访问信息</li> {{ INFO }}
     <li>当访问时间</li> {{ date }}
+    <li>访问ip统计</li> {{ ip_count }}
+
 </ul>
+{#<a href="{% url 'login-form' %}">返回上一级</a>#}
 {% endblock %}
+</body>
+</html>

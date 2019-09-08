@@ -1,10 +1,13 @@
 # 返回用户请求 HttpResponse
 from datetime import date
-
-from django.http import request, JsonResponse, HttpResponse
-from django.shortcuts import render
+# from django.contrib.redirects.models import Redirect
+from django.http import request, JsonResponse, HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, redirect, render_to_response
 from django.shortcuts import render, HttpResponse
-from app1.models import *
+from django.template import RequestContext
+from django.urls import reverse
+from django.views.decorators.csrf import csrf_exempt
+from app1.models import UserIPInfo, Genre, BrowseInfo,BookInstance
 import json
 from Django_1.util.tools import sendmail
 # 导入日志
@@ -15,8 +18,6 @@ logger = logging.getLogger('django')
 
 
 # 测试接口
-
-
 def hellword(request):
     # print(request.methon)
     a = request.methon
@@ -24,6 +25,7 @@ def hellword(request):
 
 
 # 获取用户ip,及浏览器信息接口
+@csrf_exempt
 def user_info(request):
     # 获取用户地址信息，META字典格式数据
     ip_addr = request.META['REMOTE_ADDR']
@@ -41,16 +43,18 @@ def user_info(request):
         ip_add_id = user_obj[0].id
 
     BrowseInfo.objects.create(useragent=user_ua, ip_id=ip_add_id, uip=ip_addr)
-
+    # 查询ip为127.0.0.1的记录并统计其条数
+    ip_count = BrowseInfo.objects.filter(uip=request.POST.get('IP')).count()
     logger.info("%s sql insert: insert userinfo(useragent,userip_id)" % (user_ua))
     result = {"STATUS": "success",
               "INFO": "User info",
               "IP": ip_addr,
               'UA': user_ua,
               'SERVER_PORT': server_port,
-              'date': now_date}
+              'date': now_date,
+              'ip_count': ip_count}
     # return HttpResponse(json.dumps(result), content_type="application/json")
-    return render(request, 'index.html', context=result)
+    return render(request, 'indexl.html', context=result)
 
 
 # 信息接口实现
@@ -78,3 +82,38 @@ def user_history(request):
     # sendm.send()
     # logger.info("%s error" %(sendm))
     return HttpResponse(json.dumps(result), content_type="application/json")
+
+@csrf_exempt
+def geturl(request):
+    request.encoding = 'utf-8'
+    IP = request.POST.get('IP')
+    print(IP)
+    if not IP:
+        result = {
+            'status': 'Failed'
+        }
+    else:
+        result = {
+            'status': 'SUCCESS',
+            'IP': IP
+        }
+    # return render(request,'indexl.html')
+    # return HttpResponseRedirect(reverse('index.html'))
+    # return redirect('indexl.html')
+    # return render(request, 'indexl.html', context=result)
+    return render(request, 'indexl.html', context=result)
+
+    # return HttpResponse(request)
+
+
+#
+# def posturl(IP):
+#     result = {
+#         'IP':IP
+#     }
+#     return render(request, 'indexl.html', context=result)
+#
+@csrf_exempt
+def app(request):
+    print('------------')
+    return render(request,'index.html')

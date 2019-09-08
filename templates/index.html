@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-{% extends "indexl.html" %}
-{% block content %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<a href="{% url 'index' %}">Home</a>
-    <li>服务器端口</li> <a>{{ SERVER_PORT }}</a>
-    <li>服务器IP</li> <a>{{ IP }}</a>
-    <li>浏览器UA</li> <a>{{ UA }}</a>
-    <li>访问状态</li> <a>{{ STATUS }}</a>
-    <li>访问信息</li> <a>{{ INFO }}</a>
-    <li>当访问时间</li> {{ date }}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{#<a href="{% url 'index' %}">Home</a>#}
+{#    <li>服务器端口</li> <a>{{ SERVER_PORT }}</a>#}
+{#    <li>服务器IP</li> <a>{{ IP }}</a>#}
+{#    <li>浏览器UA</li> <a>{{ UA }}</a>#}
+{#    <li>访问状态</li> <a>{{ STATUS }}</a>#}
+{#    <li>访问信息</li> <a>{{ INFO }}</a>#}
+{#    <li>当访问时间</li> {{ date }}#}
+{#    <li>当前ip次数</li> {{ ip_count }}#}
+{##}
+{% block content %}
+{% csrf_token %}
+    <div>
+        <form action="/login/" method="post">
+            <input type="text" name="IP"/>
+            <input type="submit" name="统计"/>
+        </form>
+        <a href="indexl.html">aaaaa</a>
+        <li>STATUS</li> {{ status }}
+    </div>
 {% endblock %}
 </body>
 </html>

@@ -1,4 +1,6 @@
 from django.contrib import admin
+
+from app1.views import geturl, app
 from .models import Author, Genre, Book, BookInstance, UserIPInfo, BrowseInfo
 # Register your models here.
 from django.http import request
@@ -13,3 +15,5 @@ admin.site.register(Author)
 admin.site.register(Genre)
 admin.site.register(BookInstance)
 admin.site.register(BrowseInfo)
+
+
