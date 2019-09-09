@@ -143,3 +143,24 @@ class Author(models.Model):
         String for representing the Model object.
         """
         return '%s, %s' % (self.last_name, self.first_name)
+
+
+class K_USER(models.Model):
+    """
+    Model representing an k_user.
+    """
+    username = models.CharField(max_length=100)
+    password = models.CharField(max_length=100)
+    logintime = models.DateField(null=True, blank=True)
+
+    def get_absolute_url(self):
+        """
+        Returns the url to access a particular author instance.
+        """
+        return reverse('author-detail', args=[str(self.id)])
+
+    def __str__(self):
+        """
+        String for representing the Model object.
+        """
+        return '%s, %s' % (self.username, self.username)

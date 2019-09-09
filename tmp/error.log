@@ -5448,3 +5448,650 @@ INFO 20190908 22:25:33 basehttp:154 "POST /login/ HTTP/1.1" 200 488
 INFO 20190908 22:25:35 views:42 127.0.0.1 alredy exists!
 INFO 20190908 22:25:35 views:48 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
 INFO 20190908 22:25:35 basehttp:154 "POST /login/ HTTP/1.1" 200 488
+INFO 20190909 21:03:41 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:11:17 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190909 21:11:19 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:11:48 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\views.py changed, reloading.
+INFO 20190909 21:11:49 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190909 21:12:07 log:228 Not Found: /index/
+WARNING 20190909 21:12:07 basehttp:154 "GET /index/ HTTP/1.1" 404 2514
+WARNING 20190909 21:12:08 log:228 Not Found: /
+WARNING 20190909 21:12:08 basehttp:154 "GET / HTTP/1.1" 404 2478
+ERROR 20190909 21:12:18 log:228 Internal Server Error: /ywweb
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'static.layui.css.layui.css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\views.py", line 124, in ywweb
+    return render(request, 'ywweb.html')
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'static.layui.css.layui.css' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+ERROR 20190909 21:12:18 basehttp:154 "GET /ywweb HTTP/1.1" 500 139962
+INFO 20190909 21:15:35 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 21:15:36 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:16:47 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 21:16:48 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:18:05 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 21:18:07 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:18:37 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 21:18:38 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:20:06 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 21:20:07 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:20:55 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:20:57 basehttp:154 "GET /ywweb HTTP/1.1" 200 2978
+INFO 20190909 21:20:57 basehttp:154 "GET /static/layui/layui.js HTTP/1.1" 200 6675
+INFO 20190909 21:20:57 basehttp:154 "GET /static/layui/css/layui.css HTTP/1.1" 200 72911
+INFO 20190909 21:20:57 basehttp:154 "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 7264
+INFO 20190909 21:20:57 basehttp:154 "GET /static/layui/lay/modules/jquery.js HTTP/1.1" 200 97648
+INFO 20190909 21:21:02 basehttp:154 "GET /ywweb HTTP/1.1" 200 2978
+INFO 20190909 21:21:03 basehttp:154 "GET /ywweb HTTP/1.1" 200 2978
+INFO 20190909 21:21:40 basehttp:154 "GET /ywweb HTTP/1.1" 200 2975
+INFO 20190909 21:21:41 basehttp:154 "GET /ywweb HTTP/1.1" 200 2975
+INFO 20190909 21:21:53 basehttp:154 "GET /ywweb HTTP/1.1" 200 2984
+INFO 20190909 21:22:53 basehttp:154 "GET /ywweb HTTP/1.1" 200 2990
+INFO 20190909 21:23:49 basehttp:154 "GET /ywweb HTTP/1.1" 200 2990
+INFO 20190909 21:23:51 basehttp:154 "GET /ywweb HTTP/1.1" 200 2990
+INFO 20190909 21:24:03 basehttp:154 "GET /ywweb HTTP/1.1" 200 2945
+INFO 20190909 21:24:04 basehttp:154 "GET /ywweb HTTP/1.1" 200 2945
+INFO 20190909 21:24:10 basehttp:154 "GET /ywweb HTTP/1.1" 200 2945
+INFO 20190909 21:36:16 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:36:17 basehttp:154 "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 22041
+INFO 20190909 21:36:17 basehttp:154 "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425
+INFO 20190909 21:36:20 basehttp:154 "GET /static/layui/css/modules/layer/default/loading-1.gif HTTP/1.1" 200 701
+INFO 20190909 21:36:20 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:36:21 basehttp:154 "GET /static/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 11493
+INFO 20190909 21:36:21 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:36:22 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:36:56 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:37:00 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:37:02 basehttp:154 "GET /ywweb HTTP/1.1" 200 3410
+INFO 20190909 21:41:15 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:17 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:18 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:18 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:19 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:19 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:20 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:21 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:21 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:22 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:22 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:24 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:41:25 basehttp:154 "GET /ywweb HTTP/1.1" 200 3115
+INFO 20190909 21:42:32 basehttp:154 "GET /ywweb HTTP/1.1" 200 3125
+WARNING 20190909 21:42:33 log:228 Not Found: /layui.open
+WARNING 20190909 21:42:33 basehttp:154 "GET /layui.open HTTP/1.1" 404 2526
+WARNING 20190909 21:42:46 log:228 Not Found: /layui.open
+WARNING 20190909 21:42:46 basehttp:154 "GET /layui.open HTTP/1.1" 404 2526
+WARNING 20190909 21:42:55 log:228 Not Found: /layui.open
+WARNING 20190909 21:42:55 basehttp:154 "GET /layui.open HTTP/1.1" 404 2526
+INFO 20190909 21:43:02 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 21:43:08 basehttp:154 "GET /ywweb HTTP/1.1" 200 3125
+WARNING 20190909 21:43:09 log:228 Not Found: /index.html
+WARNING 20190909 21:43:09 basehttp:154 "GET /index.html HTTP/1.1" 404 2526
+WARNING 20190909 21:43:15 log:228 Not Found: /indexl.html
+WARNING 20190909 21:43:15 basehttp:154 "GET /indexl.html HTTP/1.1" 404 2529
+WARNING 20190909 21:43:50 log:228 Not Found: /indexl.html
+WARNING 20190909 21:43:50 basehttp:154 "GET /indexl.html HTTP/1.1" 404 2529
+INFO 20190909 21:43:52 basehttp:154 "GET /ywweb HTTP/1.1" 200 3125
+INFO 20190909 21:43:54 basehttp:154 "GET /login-form/ HTTP/1.1" 200 655
+INFO 20190909 21:43:59 views:42 127.0.0.1 alredy exists!
+INFO 20190909 21:43:59 views:48 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190909 21:43:59 basehttp:154 "POST /login/ HTTP/1.1" 200 487
+INFO 20190909 21:44:05 views:42 127.0.0.1 alredy exists!
+INFO 20190909 21:44:05 views:48 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 sql insert: insert userinfo(useragent,userip_id)
+INFO 20190909 21:44:05 basehttp:154 "POST /login/ HTTP/1.1" 200 488
+INFO 20190909 23:03:44 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:03:49 basehttp:154 "GET /login/ HTTP/1.1" 200 2386
+INFO 20190909 23:05:45 basehttp:154 "GET /login/ HTTP/1.1" 200 2597
+INFO 20190909 23:06:38 basehttp:154 "GET /login/?username=zhao&password=zhaocheng11 HTTP/1.1" 200 2597
+INFO 20190909 23:08:05 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:08:06 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:14:36 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:14:37 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:14:45 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:14:53 basehttp:154 "GET /login/ HTTP/1.1" 200 2735
+ERROR 20190909 23:15:00 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 10, in login
+    username = request.post.get('username')
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 20190909 23:15:00 basehttp:154 "GET /loginapi/?username=zhao&password=zhaocheng11 HTTP/1.1" 500 71791
+INFO 20190909 23:15:45 basehttp:154 "GET /login/ HTTP/1.1" 200 2748
+ERROR 20190909 23:15:47 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 10, in login
+    username = request.post.get('username')
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 20190909 23:15:47 basehttp:154 "GET /loginapi/?username=zhao&password=zhaocheng11 HTTP/1.1" 500 71791
+ERROR 20190909 23:16:05 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 10, in login
+    username = request.post.get('username')
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 20190909 23:16:05 basehttp:154 "GET /loginapi/?username=zhao&password=zhaocheng11 HTTP/1.1" 500 71919
+INFO 20190909 23:16:10 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:16:12 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 10, in login
+    username = request.post.get('username')
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 20190909 23:16:12 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 71787
+INFO 20190909 23:17:26 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:17:27 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:17:31 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:17:38 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 10, in login
+    username = request.post.get('username')
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 20190909 23:17:38 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 71797
+INFO 20190909 23:18:37 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:18:39 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:18:41 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:18:43 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 13, in login
+    userinfo = K_USER.objects.get(username=username,password=password)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+app1.models.K_USER.DoesNotExist: K_USER matching query does not exist.
+ERROR 20190909 23:18:43 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 80092
+INFO 20190909 23:19:00 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:19:01 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:19:03 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:19:05 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 13, in login
+    userinfo = K_USER.objects.get(username=username,password=password)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+app1.models.K_USER.DoesNotExist: K_USER matching query does not exist.
+ERROR 20190909 23:19:05 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 80218
+INFO 20190909 23:19:15 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:19:16 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:19:19 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:19:21 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 13, in login
+    userinfo = K_USER.objects.get(username=username,password=password)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+app1.models.K_USER.DoesNotExist: K_USER matching query does not exist.
+ERROR 20190909 23:19:21 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 80343
+INFO 20190909 23:19:34 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:19:35 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:19:39 basehttp:154 "GET /login/ HTTP/1.1" 200 2750
+ERROR 20190909 23:19:40 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 13, in login
+    userinfo = K_USER.objects.get(username=username)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+app1.models.K_USER.DoesNotExist: K_USER matching query does not exist.
+ERROR 20190909 23:19:40 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 80221
+INFO 20190909 23:20:27 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:20:28 autoreload:597 Watching for file changes with StatReloader
+ERROR 20190909 23:20:32 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 13, in login
+    userinfo = K_USER.objects.get(username=username)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+app1.models.K_USER.DoesNotExist: K_USER matching query does not exist.
+ERROR 20190909 23:20:32 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 80226
+INFO 20190909 23:21:58 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:21:59 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:22:32 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:22:33 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:24:19 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:24:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:29:40 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:29:42 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:30:45 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:30:50 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:30:51 autoreload:597 Watching for file changes with StatReloader
+ERROR 20190909 23:31:11 log:228 Internal Server Error: /reigist
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'username' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 25, in zhuce
+    K_USER.objects.create(username=username,password=password)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'username' cannot be null")
+ERROR 20190909 23:31:11 basehttp:154 "GET /reigist HTTP/1.1" 500 211285
+INFO 20190909 23:32:11 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:32:12 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:32:20 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:32:21 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:32:41 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:32:53 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:32:54 autoreload:597 Watching for file changes with StatReloader
+ERROR 20190909 23:33:02 log:228 Internal Server Error: /regist
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'username' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 25, in zhuce
+    K_USER.objects.create(username=username,password=password)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'username' cannot be null")
+ERROR 20190909 23:33:02 basehttp:154 "GET /regist HTTP/1.1" 500 211275
+INFO 20190909 23:33:27 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:33:28 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:33:30 basehttp:154 "GET /regist HTTP/1.1" 200 2670
+WARNING 20190909 23:33:34 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:33:34 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 2743
+INFO 20190909 23:34:19 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:34:21 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:34:30 basehttp:154 "GET /regist HTTP/1.1" 200 2670
+WARNING 20190909 23:34:33 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:34:33 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 2743
+INFO 20190909 23:34:53 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:34:55 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:34:59 basehttp:154 "GET /regist HTTP/1.1" 200 2670
+WARNING 20190909 23:35:00 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:35:00 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 2743
+INFO 20190909 23:35:50 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 23:35:51 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:35:56 basehttp:154 "GET /regist HTTP/1.1" 200 2670
+WARNING 20190909 23:35:58 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:35:58 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 77
+INFO 20190909 23:36:25 autoreload:597 Watching for file changes with StatReloader
+WARNING 20190909 23:36:32 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:36:32 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 77
+WARNING 20190909 23:36:34 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:36:34 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 77
+INFO 20190909 23:38:16 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\urls.py changed, reloading.
+INFO 20190909 23:38:18 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:38:26 basehttp:154 "GET /regist HTTP/1.1" 301 0
+INFO 20190909 23:38:26 basehttp:154 "GET /regist/ HTTP/1.1" 200 2670
+WARNING 20190909 23:38:29 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:38:29 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 77
+INFO 20190909 23:38:52 basehttp:154 "GET /regist/ HTTP/1.1" 200 2670
+INFO 20190909 23:38:52 basehttp:154 "GET /regist/ HTTP/1.1" 200 2670
+WARNING 20190909 23:38:54 log:228 Not Found: /reigistapi/
+WARNING 20190909 23:38:54 basehttp:154 "POST /reigistapi/ HTTP/1.1" 404 77
+INFO 20190909 23:39:03 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:39:09 basehttp:154 "GET /regist/ HTTP/1.1" 200 2669
+INFO 20190909 23:39:09 basehttp:154 "GET /regist/ HTTP/1.1" 200 2669
+WARNING 20190909 23:39:11 log:228 Forbidden (CSRF token missing or incorrect.): /registapi/
+WARNING 20190909 23:39:11 basehttp:154 "POST /registapi/ HTTP/1.1" 403 1019
+INFO 20190909 23:39:37 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\Django_1\settings.py changed, reloading.
+INFO 20190909 23:39:38 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:39:41 basehttp:154 "GET /regist/ HTTP/1.1" 200 2669
+WARNING 20190909 23:39:43 log:228 Forbidden (CSRF token missing or incorrect.): /registapi/
+WARNING 20190909 23:39:43 basehttp:154 "POST /registapi/ HTTP/1.1" 403 2513
+INFO 20190909 23:40:20 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:40:23 basehttp:154 "GET /regist/ HTTP/1.1" 200 2791
+INFO 20190909 23:40:23 basehttp:154 "GET /regist/ HTTP/1.1" 200 2791
+INFO 20190909 23:40:26 basehttp:154 "POST /registapi/ HTTP/1.1" 200 13
+INFO 20190909 23:40:45 basehttp:154 "GET /login/ HTTP/1.1" 200 2668
+ERROR 20190909 23:40:49 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 16, in login
+    return render(request, 'ywweb.html', context=True)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than bool.
+ERROR 20190909 23:40:49 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 88322
+INFO 20190909 23:41:38 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:41:41 basehttp:154 "GET /login/ HTTP/1.1" 200 2668
+ERROR 20190909 23:41:42 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 16, in login
+    return render(request, 'ywweb.html', context=True)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than bool.
+ERROR 20190909 23:41:42 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 88322
+INFO 20190909 23:42:26 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:42:27 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:42:31 basehttp:154 "GET /login/ HTTP/1.1" 200 2668
+ERROR 20190909 23:42:35 log:228 Internal Server Error: /loginapi/
+Traceback (most recent call last):
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\zhao\PycharmProjects\Django_1\app1\login.py", line 16, in login
+    return render(request, 'ywweb.html', context=userinfo)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "C:\Users\zhao\PycharmProjects\Django_1\venv\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than K_USER.
+ERROR 20190909 23:42:35 basehttp:154 "POST /loginapi/ HTTP/1.1" 500 88426
+INFO 20190909 23:43:23 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:43:24 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:43:27 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:43:29 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:43:49 autoreload:217 C:\Users\zhao\PycharmProjects\Django_1\app1\login.py changed, reloading.
+INFO 20190909 23:43:50 autoreload:597 Watching for file changes with StatReloader
+INFO 20190909 23:43:51 basehttp:154 "GET /login/ HTTP/1.1" 200 2668
+INFO 20190909 23:43:52 basehttp:154 "GET /login/ HTTP/1.1" 200 2668
+INFO 20190909 23:43:54 basehttp:154 "POST /loginapi/ HTTP/1.1" 200 3127
+INFO 20190909 23:44:32 basehttp:154 "POST /loginapi/ HTTP/1.1" 200 3125

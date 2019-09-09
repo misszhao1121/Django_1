@@ -18,8 +18,8 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-sys.path.insert(0, os.path.join(BASE_DIR, 'web'))
-sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
+# sys.path.insert(0, os.path.join(BASE_DIR, 'web'))
+# sys.path.insert(0, os.path.join(BASE_DIR, 'static'))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -58,7 +58,8 @@ ROOT_URLCONF = 'Django_1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 os.path.join(BASE_DIR,'static')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -153,6 +154,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(STATIC_URL, 'layui/'),
+]
 
 
 

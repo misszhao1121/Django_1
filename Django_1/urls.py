@@ -20,8 +20,10 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 from django.views.generic import RedirectView
 from Django_1 import settings
-from app1 import views
+from app1 import views, login
 from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 urlpatterns = [
 
@@ -31,9 +33,14 @@ urlpatterns = [
     # path('getinfo/', views.user_history),
     # path('app1/',admin.site.urls),
     # path('user/', views.user_info, name='index'),
-    url('login-form/',views.app),
+    # url('login-form/',views.app),
     # path('login/',views.geturl),
-    url('login/', views.user_info)
+    # url('login/', views.user_info),
+    url('login/', views.login),
+    url('loginapi/',login.login),
+    url('regist/',views.regist),
+    url('registapi/',login.regist),
+    url('ywweb',views.ywweb)
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_URL)
 

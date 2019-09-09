@@ -7,7 +7,7 @@ from django.shortcuts import render, HttpResponse
 from django.template import RequestContext
 from django.urls import reverse
 from django.views.decorators.csrf import csrf_exempt
-from app1.models import UserIPInfo, Genre, BrowseInfo,BookInstance
+from app1.models import UserIPInfo, Genre, BrowseInfo, BookInstance
 import json
 from Django_1.util.tools import sendmail
 # 导入日志
@@ -83,6 +83,7 @@ def user_history(request):
     # logger.info("%s error" %(sendm))
     return HttpResponse(json.dumps(result), content_type="application/json")
 
+
 @csrf_exempt
 def geturl(request):
     request.encoding = 'utf-8'
@@ -116,4 +117,16 @@ def geturl(request):
 @csrf_exempt
 def app(request):
     print('------------')
-    return render(request,'index.html')
+    return render(request, 'index.html')
+
+
+def ywweb(request):
+    return render(request, 'ywweb.html')
+
+
+def login(request):
+    return render(request, 'login.html')
+
+
+def regist(request):
+    return render(request, 'regist.html')
