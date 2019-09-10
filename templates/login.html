@@ -8,6 +8,7 @@
 <body>
 {% block content %}
     {% csrf_token %}
+<div class="alert alert-warning">{{ failed }}</div>
 <form class="layui-form"  method="post" action="/loginapi/" lay-filter="example">
   <div class="layui-form-item">
     <label class="layui-form-label">输入框</label>
@@ -22,7 +23,8 @@
     </div>
   </div>
     <div class="layui-form-item">
-        <button class="layui-btn" lay-submit="" lay-filter="demo2">登录</button>
+        <button class="layui-btn"  data-method="confirmTrans" lay-submit="" lay-filter="demo2">登录</button>
+
 {#        <button class="layui-btn" lay-submit="" lay-filter="demo2">注册</button>#}
     </div>
 </form>
@@ -77,6 +79,11 @@ layui.use(['form', 'layedit', 'laydate'], function(){
     layer.alert(JSON.stringify(data.field), {
       title: '最终的提交信息'
     })
+    layer.msg('大部分参数都是可以公用的<br>合理搭配，展示不一样的风格', {
+      time: 20000, //20s后自动关闭
+      btn: ['明白了', '知道了', '哦']
+      });
+    }
     return false;
   });
 
@@ -92,6 +99,12 @@ layui.use(['form', 'layedit', 'laydate'], function(){
   })
 
 
+
+
 });
+  $('#layerDemo .layui-btn').on('click', function(){
+    var othis = $(this), method = othis.data('method');
+    active[method] ? active[method].call(this, othis) : '';
+  });
 </script>
 </html>
